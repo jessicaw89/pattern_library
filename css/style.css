@@ -1,0 +1,59 @@
+/*------- CSS ------*/
+
+{
+    padding:0;
+    margin: 0;
+    font-size; 100%;
+    line-height: 1em;
+}
+
+/*----------- MAIN STYLING ---------*/
+body {
+    width:80%;
+    max-width: 650px;
+    margin: auto;
+    background: #fafafa;
+    color: #333;
+font-family: 'Alata', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Hammersmith One', sans-serif;
+
+}    
+}
+
+/*--------HEADINGS------*/
+
+
+
+/*-------------- TYPOGRAPHY ---------*/
+
+h1 {font-family: 'Alata', sans-serif;
+   
+    font-weight: normal;
+    color: #8F0040;
+    text-align: center;
+}
+
+p{font-family: 'Alata', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Hammersmith One', sans-serif;}
+
+p, blockquote {
+    margin-bottom: 1em;
+    line-height: 1.4em;
+}
+
+h1 {font-size: 2.827em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+    }
+
+h2 {font-size: 1.99em;
+    margin: 3em 0 1em 0}
+
+h3 {font-size: 1.414em;
+    margin-bottom: 1.5em; 
+   
+    font-family: 'Hammersmith One', sans-serif;
+}
+
