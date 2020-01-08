@@ -1,59 +1,370 @@
-/*------- CSS ------*/
+/*-------- CSS Reset ------*/
 
-{
-    padding:0;
+*{
+    padding: 0;
     margin: 0;
-    font-size; 100%;
+    font-size: 100%;
     line-height: 1em;
 }
 
-/*----------- MAIN STYLING ---------*/
+/*---------- MAIN STYLING ----------*/
 body {
-    width:80%;
-    max-width: 650px;
-    margin: auto;
     background: #fafafa;
     color: #333;
-font-family: 'Alata', sans-serif;
-    font-family: 'Playfair Display SC', serif;
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-family: 'Prociono', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Kulim Park', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 
-}    
 }
 
-/*--------HEADINGS------*/
+header, section {    
+    max-width: 600px;
+    margin: auto;}
 
+header {
+    margin: 5em auto;
+}
 
+hr {
+    margin: 2em 0;
+    height: 1px;
+    background-color: #333;
+    color: #333;
+    border: 0 none
+}
 
-/*-------------- TYPOGRAPHY ---------*/
+/*---------------- TYPOGRAPHY ---------------*/
 
-h1 {font-family: 'Alata', sans-serif;
-   
+h1, h2, h3, h4 {
     font-weight: normal;
-    color: #8F0040;
-    text-align: center;
-}
+    margin-bottom: 1em;}
 
-p{font-family: 'Alata', sans-serif;
-    font-family: 'Playfair Display SC', serif;
-    font-family: 'Hammersmith One', sans-serif;}
+p { font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    
+    
+}
 
 p, blockquote {
-    margin-bottom: 1em;
-    line-height: 1.4em;
-}
+    margin-bottom: 1.5em;
+    line-height: 1.4;}
 
 h1 {font-size: 2.827em;
-    margin-top: 2em;
-    margin-bottom: 0.1em;
-    }
+    color: #E65A45}
 
-h2 {font-size: 1.99em;
-    margin: 3em 0 1em 0}
+h2 {font-size: 1.999em;
+font-family: 'Kulim Park', sans-serif;
+color: #75BAE8}
 
 h3 {font-size: 1.414em;
-    margin-bottom: 1.5em; 
-   
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Prociono', serif;
+    
 }
 
+h4 {
+    font-family: 'Sree Krushnadevaraya', serif;
+}
+
+blockquote {
+   font-size: 1.414em;
+   hanging-punctuation: first;
+   text-indent: -0.44em;
+    color: #EB730B;
+}
+
+blockquote cite {
+    font-size: 0.75em;}
+
+.quote-large {
+    font-size: 1.999em;
+    hanging-punctuation: first;
+    text-indent: -0.44em;
+    line-height: 1.2;
+ }
+
+.cite-large {
+    font-size: 0.6em;}
+
+.scale {
+    padding-left: 3em;
+    font-size: 16px;
+}
+
+/*------- ADAPTED CONTENT FOR DARK BACKGROUND ------------*/
+.dark {
+    background: #F0DAB0;
+    color: #fafafa;
+    padding: 3em 0;
+}
+
+
+.dark hr {
+    margin: 2em 0;
+    height: 1px;
+    background-color: #fafafa;
+    color: #fafafa;
+    border: 0 none
+}
+/*------------------ COLOUR PAGE SPECIFICATIONS --------------*/
+
+.color-guide p {
+    background: crimson;
+    padding: 1em
+}
+
+
+/*--------------------- STYLING LINKS -----------------*/
+a {
+    color: #8F0040;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+    border-bottom: 1px dotted;
+}
+
+
+
+
+/*------------------- NAVIGATION ------------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #FAD3A0;
+    padding: 1em 0;
+    font-size: 0.85em;
+    box-shadow: 0 0 10px 0 black;
+
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 40px;
+    background: none;
+}
+
+nav a:link {
+    color: #333;
+}
+
+nav a:visited {
+    color: #333;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #D66F3D;
+    transition: all 0.3s ease-in-out; 
+}
+
+
+/*------------------- NAVIGATION ------------------*/
+.nav2 {
+    position: fixed;
+    top: 100;
+    left: 0;
+    margin-top: 6em;
+    width: 100%;
+    background-color: #FA8575;
+    padding: 1em 0;
+    font-size: 0.85em;
+    box-shadow: 0 0 0 0;
+}
+
+.nav2 ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.nav2 ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+.nav2 a:link {
+    color: #fff;
+}
+
+.nav2 a:visited {
+    color: #fff;
+}
+
+.nav2 a:hover {
+    border-bottom: none;
+    color: #333;
+    transition: all 0.3s ease-in-out; 
+}
+
+/*------------------- NAVIGATION VERSION 3------------------*/
+.nav3 {
+    position: fixed;
+    top: 100;
+    left: 0;
+    margin-top: 12em;
+    width: 100%;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 2em 0;
+    font-size: 0.85em;
+    box-shadow: 0 0 0 0;
+    font-size: 0.8em;
+    font-family: 'Prociono', serif;
+    background-color: #F5EA6B;
+
+}
+
+.nav3 ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav3 ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+.nav3 a:link {
+    color: #333;
+}
+
+.nav3 a:visited {
+    color: #333;
+}
+
+.nav3 a:hover {
+    border-bottom: none;
+    color: #F05714;
+    transition: all 0.2s ease-in-out; 
+}
+
+/*-------------------- FOOTER ---------------------*/
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 4em 0;
+    margin: auto;
+    margin-top: 18em
+}
+
+.footer2 {
+    margin: auto;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+    margin: 20, 0px;
+}
+.connections ul{
+    margin: 0;
+    padding: 0;
+}
+.connections li{
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+}
+.connections a:link{
+    border-bottom: none;
+}
+.connections img,
+.connections svg{
+    border: none;
+}
+.connections a:hover img,
+.connections a:hover svg{
+    border-bottom: none;}
+
+.connections svg {
+        margin: 2em auto;}
+
+.connections a:hover svg path {
+        fill: #ff9900;
+        transition: all 0.2s ease-in-out;}
+
+
+.footer2 .connections a:hover svg path {
+            fill: #cc0066;
+            transition: all 0.2s ease-in-out;}
+
+.connections .twitter a:hover svg path {
+                fill: #00acee ;
+                transition: all 0.2s ease-in-out;}
+
+.connections .insta a:hover svg path {
+                    fill: #3f729b ;
+                    transition: all 0.2s ease-in-out;}
+
+.connections .site a:hover svg path {
+                        fill: #a8cc16 ;
+                        transition: all 0.2s ease-in-out;}
+
+.connections .tumblr a:hover svg path {
+                            fill: #34526f ;
+                            transition: all 0.2s ease-in-out;}
+
+
+
+
+
+
+
+
+
+/*------TABLE ONE AND TWO------*/
+
+
+
+
+table {margin: auto;
+       display: table;
+       border-collapse: collapse;
+       border-spacing: 2px;
+       margin-bottom: 2em;
+       width: 100%;
+        
+}
+
+caption {padding: 2em;
+
+}
+
+
+th {color: #fafafa;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #9E84E4;      
+}
+
+th {padding: .6em;
+    font-family: 'Kulim Park', sans-serif;
+
+}
+
+td {padding: .6em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+table, td {background: #DDD6FF;
+            border: 1px solid #fafafa;
+
+}
