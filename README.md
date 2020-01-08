@@ -1,6 +1,5 @@
 # pattern_library
 
-# pattern_library
 
 ## Head
 
