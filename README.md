@@ -2,16 +2,16 @@
 
 ## Head
 
-[Head](https://jessicaw89.github.io/pattern_library/head.html)
+- [Head](https://jessicaw89.github.io/pattern_library/head.html)
 
 ## Typography 
 
-[Typography](https://jessicaw89.github.io/pattern_library/typography.html)
+- [Typography](https://jessicaw89.github.io/pattern_library/typography.html)
 
 ## Navigation
 
-[Navigation](https://jessicaw89.github.io/pattern_library/navigation.html)
+- [Navigation](https://jessicaw89.github.io/pattern_library/navigation.html)
 
 ## Lists
 
-[Lists](https://jessicaw89.github.io/pattern_library/.lists)
+- [Lists](https://jessicaw89.github.io/pattern_library/lists.html)
